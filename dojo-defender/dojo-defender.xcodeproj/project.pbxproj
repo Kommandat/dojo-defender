@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF3BD121C8F80350083D54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD111C8F80350083D54E /* AppDelegate.swift */; };
+		5CF3BD141C8F80350083D54E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5CF3BD131C8F80350083D54E /* GameScene.sks */; };
+		5CF3BD161C8F80350083D54E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD151C8F80350083D54E /* GameScene.swift */; };
+		5CF3BD181C8F80350083D54E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD171C8F80350083D54E /* GameViewController.swift */; };
+		5CF3BD1B1C8F80350083D54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF3BD191C8F80350083D54E /* Main.storyboard */; };
+		5CF3BD1D1C8F80350083D54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF3BD1C1C8F80350083D54E /* Assets.xcassets */; };
+		5CF3BD201C8F80350083D54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF3BD1E1C8F80350083D54E /* LaunchScreen.storyboard */; };
+		5CF3BD2E1C8F84B90083D54E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD2D1C8F84B90083D54E /* GameOverScene.swift */; };
+		5CF3BD301C8F889F0083D54E /* LevelTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD2F1C8F889F0083D54E /* LevelTransitionScene.swift */; };
+		5CF3BD321C8F8EBB0083D54E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3BD311C8F8EBB0083D54E /* MainMenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CF3BD0E1C8F80350083D54E /* dojo-defender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-defender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF3BD111C8F80350083D54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CF3BD131C8F80350083D54E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5CF3BD151C8F80350083D54E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5CF3BD171C8F80350083D54E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5CF3BD1A1C8F80350083D54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF3BD1C1C8F80350083D54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF3BD1F1C8F80350083D54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF3BD211C8F80350083D54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF3BD2D1C8F84B90083D54E /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		5CF3BD2F1C8F889F0083D54E /* LevelTransitionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTransitionScene.swift; sourceTree = "<group>"; };
+		5CF3BD311C8F8EBB0083D54E /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF3BD0B1C8F80350083D54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF3BD051C8F80350083D54E = {
+			isa = PBXGroup;
+			children = (
+				5CF3BD101C8F80350083D54E /* dojo-defender */,
+				5CF3BD0F1C8F80350083D54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF3BD0F1C8F80350083D54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF3BD0E1C8F80350083D54E /* dojo-defender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF3BD101C8F80350083D54E /* dojo-defender */ = {
+			isa = PBXGroup;
+			children = (
+				5CF3BD111C8F80350083D54E /* AppDelegate.swift */,
+				5CF3BD131C8F80350083D54E /* GameScene.sks */,
+				5CF3BD151C8F80350083D54E /* GameScene.swift */,
+				5CF3BD171C8F80350083D54E /* GameViewController.swift */,
+				5CF3BD191C8F80350083D54E /* Main.storyboard */,
+				5CF3BD1C1C8F80350083D54E /* Assets.xcassets */,
+				5CF3BD1E1C8F80350083D54E /* LaunchScreen.storyboard */,
+				5CF3BD2F1C8F889F0083D54E /* LevelTransitionScene.swift */,
+				5CF3BD211C8F80350083D54E /* Info.plist */,
+				5CF3BD311C8F8EBB0083D54E /* MainMenuScene.swift */,
+				5CF3BD2D1C8F84B90083D54E /* GameOverScene.swift */,
+			);
+			path = "dojo-defender";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF3BD0D1C8F80350083D54E /* dojo-defender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF3BD241C8F80350083D54E /* Build configuration list for PBXNativeTarget "dojo-defender" */;
+			buildPhases = (
+				5CF3BD0A1C8F80350083D54E /* Sources */,
+				5CF3BD0B1C8F80350083D54E /* Frameworks */,
+				5CF3BD0C1C8F80350083D54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-defender";
+			productName = "dojo-defender";
+			productReference = 5CF3BD0E1C8F80350083D54E /* dojo-defender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF3BD061C8F80350083D54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lakshay Akula";
+				TargetAttributes = {
+					5CF3BD0D1C8F80350083D54E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CF3BD091C8F80350083D54E /* Build configuration list for PBXProject "dojo-defender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF3BD051C8F80350083D54E;
+			productRefGroup = 5CF3BD0F1C8F80350083D54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF3BD0D1C8F80350083D54E /* dojo-defender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF3BD0C1C8F80350083D54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF3BD141C8F80350083D54E /* GameScene.sks in Resources */,
+				5CF3BD201C8F80350083D54E /* LaunchScreen.storyboard in Resources */,
+				5CF3BD1D1C8F80350083D54E /* Assets.xcassets in Resources */,
+				5CF3BD1B1C8F80350083D54E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF3BD0A1C8F80350083D54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF3BD321C8F8EBB0083D54E /* MainMenuScene.swift in Sources */,
+				5CF3BD161C8F80350083D54E /* GameScene.swift in Sources */,
+				5CF3BD181C8F80350083D54E /* GameViewController.swift in Sources */,
+				5CF3BD2E1C8F84B90083D54E /* GameOverScene.swift in Sources */,
+				5CF3BD301C8F889F0083D54E /* LevelTransitionScene.swift in Sources */,
+				5CF3BD121C8F80350083D54E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CF3BD191C8F80350083D54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF3BD1A1C8F80350083D54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF3BD1E1C8F80350083D54E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF3BD1F1C8F80350083D54E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF3BD221C8F80350083D54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CF3BD231C8F80350083D54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF3BD251C8F80350083D54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-defender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lakula.dojo-defender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CF3BD261C8F80350083D54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-defender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lakula.dojo-defender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF3BD091C8F80350083D54E /* Build configuration list for PBXProject "dojo-defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF3BD221C8F80350083D54E /* Debug */,
+				5CF3BD231C8F80350083D54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF3BD241C8F80350083D54E /* Build configuration list for PBXNativeTarget "dojo-defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF3BD251C8F80350083D54E /* Debug */,
+				5CF3BD261C8F80350083D54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF3BD061C8F80350083D54E /* Project object */;
+}
